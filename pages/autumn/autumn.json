@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "秋冬必备",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

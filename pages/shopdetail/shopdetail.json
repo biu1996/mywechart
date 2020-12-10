@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "详情",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u-badge": "/node-modules/uview-ui/components/u-badge/u-badge"
+  }
+}

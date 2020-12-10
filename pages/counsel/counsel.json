@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "药师咨询",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

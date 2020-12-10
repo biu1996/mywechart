@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "公告详情",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

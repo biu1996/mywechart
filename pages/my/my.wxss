@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  width: 100%;
+  height: 240rpx;
+  margin-bottom: 20rpx;
+}
+.top .image1 {
+  background-image: url(data:image/png;base64,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);
+  background-repeat: no-repeat;
+  background-size: 161rpx 163rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 163rpx;
+  margin-left: 30rpx;
+  -webkit-align-self: flex-end;
+          align-self: flex-end;
+}
+.top .image1 .topsc {
+  width: 100rpx;
+  height: 100rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 15rpx;
+}
+.top .image1 .toptext {
+  font-size: 30rpx;
+  color: #000000;
+  font-weight: bold;
+}
+.top .image2 {
+  background-image: url(data:image/png;base64,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);
+  background-repeat: no-repeat;
+  background-size: 288rpx 147rpx;
+  width: 288rpx;
+  height: 147rpx;
+  line-height: 147rpx;
+  text-align: right;
+}
+.top .image2 .ms {
+  width: 36rpx;
+  height: 40rpx;
+  margin-right: 30rpx;
+  vertical-align: middle;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  -webkit-border-radius: 60rpx 60rpx 0rpx 0rpx;
+          border-radius: 60rpx 60rpx 0rpx 0rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 31rpx;
+}
+.container .near {
+  background-color: #ffffff;
+  -webkit-border-radius: 60rpx;
+          border-radius: 60rpx;
+  padding: 35rpx;
+  margin-bottom: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.container .near .neartext1 {
+  font-size: 26rpx;
+}
+.container .near .neartext2 {
+  font-size: 26rpx;
+  font-weight: bold;
+}
+.container .myorder {
+  background-color: #ffffff;
+  -webkit-border-radius: 60rpx;
+          border-radius: 60rpx;
+  padding: 35rpx;
+  margin-bottom: 30rpx;
+}
+.container .myorder .title {
+  font-size: 35rpx;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 35rpx;
+}
+.container .myorder .rownaver {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.container .myorder .rownaver .rowitem {
+  width: 25%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  font-size: 30rpx;
+  position: relative;
+}
+.container .myorder .rownaver .rowitem .md {
+  width: 48rpx;
+  height: 44rpx;
+}
+.container .myorder .rownaver .rowitem .bj {
+  width: 30rpx;
+  height: 30rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  font-size: 20rpx;
+  color: #ffffff;
+  background-color: #036eb7;
+  position: absolute;
+  top: -15rpx;
+  right: 35.5rpx;
+}
+.container .imagemiddle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.container .imagemiddle image {
+  width: 330rpx;
+  height: 160rpx;
+}
+.container .list-content {
+  background-color: #ffffff;
+  -webkit-border-radius: 60rpx;
+          border-radius: 60rpx;
+  padding: 35rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 40rpx;
+}
+.container .list-content .list-title {
+  width: 100%;
+  font-size: 35rpx;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 15rpx;
+}
+.container .list-content .intem {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+.container .list-content .intem:nth-child(even)::after {
+  display: none;
+}
+.container .list-content .intem::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 72rpx;
+  left: 0;
+  width: 2rpx;
+  height: 80rpx;
+  border-right: 2rpx solid #f5f5f5;
+}
+.container .list-content .intem .intem-image .image {
+  width: 311rpx;
+  height: 240rpx;
+}
+.container .list-content .intem .intem-name {
+  text-align: center;
+  font-size: 30rpx;
+  color: #424656;
+}
+.container .list-content .intem .intem-price {
+  text-align: center;
+  font-size: 30rpx;
+  color: #424656;
+  font-weight: bold;
+}
+

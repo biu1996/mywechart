@@ -1,0 +1,1 @@
+<view class="container"><view class="banner"><image mode="aspectFit" src="{{banner.src}}"></image></view><view class="list-content"><view class="title">相关介绍</view><rich-text class="strings" nodes="{{strings}}"></rich-text></view></view>

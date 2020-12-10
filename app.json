@@ -1,0 +1,81 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sweet/sweet",
+    "pages/autumn/autumn",
+    "pages/activity/activity",
+    "pages/notice/notice",
+    "pages/company/company",
+    "pages/home/home",
+    "pages/search/search",
+    "pages/searchlist/searchlist",
+    "pages/my/my",
+    "pages/counsel/counsel",
+    "pages/service/service",
+    "pages/ordertypes/ordertypes",
+    "pages/seter/seter",
+    "pages/medicine/medicine",
+    "pages/position/position",
+    "pages/drug/drug",
+    "pages/navigation/navigation",
+    "pages/sort/sort",
+    "pages/guide/guide",
+    "pages/againposition/againposition",
+    "pages/shopcart/shopcart",
+    "pages/shoppay/shoppay",
+    "pages/shopdetail/shopdetail",
+    "pages/shoporder/shoporder"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "中康医药商城",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#a1a4ab",
+    "selectedColor": "#036eb7",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/images/tt1.png",
+        "selectedIconPath": "static/images/tt1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "iconPath": "static/images/tt2.png",
+        "selectedIconPath": "static/images/f.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/drug/drug",
+        "iconPath": "static/images/tt5.png",
+        "selectedIconPath": "static/images/tt51.png",
+        "text": "取药码"
+      },
+      {
+        "pagePath": "pages/shopcart/shopcart",
+        "iconPath": "static/images/tt3.png",
+        "selectedIconPath": "static/images/tt3.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/tt4.png",
+        "selectedIconPath": "static/images/tt4.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "定位"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap75.json"
+}

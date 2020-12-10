@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "甜蜜时光",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

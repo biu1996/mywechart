@@ -1,0 +1,1 @@
+<view class="container"><view class="top"><image mode="aspectFit" src="{{natural.src}}"></image></view><view class="url-button"><button class="go" open-type="getUserInfo" data-event-opts="{{[['tap',[['guide',['$event']]]]]}}" bindtap="__e">进入</button></view></view>

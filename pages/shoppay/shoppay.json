@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "购买完成",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

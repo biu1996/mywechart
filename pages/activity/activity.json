@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "运营活动",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {}
+}

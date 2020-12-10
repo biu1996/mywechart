@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "客服咨询",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

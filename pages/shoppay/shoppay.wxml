@@ -1,0 +1,1 @@
+<view class="shoppay"><view><image class="payimg" src="../../static/images/shoppay.png" mode></image></view><view class="payfinsh">支付成功</view><view class="paymoney">实付金额：¥ 15.90</view><view class="btn"><view class="btn-bg">查看取药码</view><view class="btn-bg">返回首页</view></view></view>

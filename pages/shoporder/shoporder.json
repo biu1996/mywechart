@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": false,
+  "usingComponents": {}
+}

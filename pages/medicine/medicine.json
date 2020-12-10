@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "附近药箱",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-radio-group": "/node-modules/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/node-modules/uview-ui/components/u-radio/u-radio",
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}
